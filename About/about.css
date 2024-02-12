@@ -1153,7 +1153,7 @@ a {
 
 a:hover,
 a:focus {
-    color: #f69c9b;
+    color: #42797E;
 }
 
 body,
@@ -2594,7 +2594,7 @@ a:where(:not(.wp-element-button)) {
     }
 
     .elementor-11 .elementor-element.elementor-element-2eec6aa .elementor-social-icon {
-        background-color: #F69C9B;
+        background-color: #42797E;
     }
 
     .elementor-11 .elementor-element.elementor-element-2eec6aa>.elementor-widget-container {
@@ -2620,7 +2620,7 @@ a:where(:not(.wp-element-button)) {
     }
 
     .elementor-11 .elementor-element.elementor-element-4500477:not(.elementor-motion-effects-element-type-background)>.elementor-widget-wrap {
-        background-color: #F69C9B;
+        background-color: #42797E;
     }
 
     .elementor-11 .elementor-element.elementor-element-4500477>.elementor-element-populated {
@@ -2741,7 +2741,7 @@ a:where(:not(.wp-element-button)) {
     .elementor-11 .elementor-element.elementor-element-f719d49>.elementor-widget-container {
         border-style: solid;
         border-width: 3px 3px 3px 3px;
-        border-color: #F69C9B;
+        border-color: #42797E;
     }
 
     .elementor-11 .elementor-element.elementor-element-8c3d310 {
