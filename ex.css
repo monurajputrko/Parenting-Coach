@@ -1350,11 +1350,25 @@ input[type="search"]:focus {
     background-color: #224E6A;
 }
 
+
+
 @media (max-width:768px) {
-    #primary {
+    /* #primary {
         padding: 1.5em 0;
         margin: 0;
-    }
+    } */
+        .textdiv {
+            /* font-size: xx-large; */
+            margin-right: -10%;
+            margin-left: -10%;
+            margin-top: 0%;
+            
+        }
+    
+        .textdiv1 {
+            margin-right: -10%;
+            margin-left: -10%;
+        }
 }
 
 .elementor-button-wrapper .elementor-button {
@@ -3301,6 +3315,16 @@ a:where(:not(.wp-element-button)) {
         text-align: center;
         padding-top: 15px;
         padding-bottom: 15px;
+    }  
+
+    .textdiv{
+        margin-right: 15%;
+         margin-left: 15%;
+         margin-top: 2%;
+    }
+    .textdiv1{
+        margin-right: 15%;
+            margin-left: 15%;
     }
 
     .elementor-26259 .elementor-element.elementor-element-095e859 {
