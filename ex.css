@@ -3891,7 +3891,7 @@ a:where(:not(.wp-element-button)) {
     }
 
     .elementor-26259 .elementor-element.elementor-element-fdac3b1:not(.elementor-motion-effects-element-type-background)>.elementor-widget-wrap {
-        background-color: #D9B2A1;
+        background-color: #ff4d00;
     }
 
     .elementor-26259 .elementor-element.elementor-element-fdac3b1>.elementor-element-populated {
@@ -4176,7 +4176,7 @@ a:where(:not(.wp-element-button)) {
     }
 
     .elementor-26259 .elementor-element.elementor-element-8808add .elementor-social-icon {
-        background-color: #D9B2A1;
+        background-color: #ffffff;
     }
 
     @media (max-width:1024px) {
