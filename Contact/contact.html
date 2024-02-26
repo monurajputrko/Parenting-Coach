@@ -39,7 +39,7 @@
                             </div>
                         </div>
                         
-                    <li style="list-style-type: none;" id="menu-item-26905"
+                    <li id="joinm" style="list-style-type: none;" id="menu-item-26905"
                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26905">
                         <a class="ast-custom-button-link" href="https://www.facebook.com/blissfulparenting" target="_blank">
                             <div style="background-color: #6B938A;" class="ast-custom-button">JOIN US </div>
@@ -278,7 +278,7 @@
                                                 <span class="elementor-icon-list-text">Jaipur Rajasthan</span>
                                                 </a>
                                             </li>
-                                            <li class="elementor-icon-list-item">
+                                            <!-- <li class="elementor-icon-list-item">
                                                 <a href="tel:+919166519631" class="elementor-icon-list-icon">
                                                     <span style="color: white; font-size: xx-large;" class="material-symbols-outlined">
                                                         call
@@ -287,8 +287,8 @@
                                                     <span class="elementor-icon-list-text">+91 9166519631</span>
                                                 </a>
                                                
-                                            </li>
-
+                                            </li> -->
+                                        <p id="response"></p>
                                             <li class="elementor-icon-list-item">
                                                 <a href="mailto:coach.drushagupta@gmail.com">
     
@@ -331,7 +331,7 @@
                                             </span>
                                             <span class="elementor-grid-item">
                                                 <a class="elementor-icon elementor-social-icon elementor-social-icon-linkedin elementor-animation-grow elementor-repeater-item-1387f0e"
-                                                    href="www.youtube.com/@CoachDr.UshaGupta" target="_blank">
+                                                    href="https://youtube.com/@CoachDr.UshaGupta?si=T85zYJoj3uWGRxzn" target="_blank">
                                                     <img width="48" height="48" src="https://img.icons8.com/color/48/youtube-play.png" alt="linkedin" />
                                                    
                                                 </a>
@@ -550,8 +550,7 @@
                                 <h2 class="widget-title">Contact</h2>
                                 <div class="textwidget">
                                     <p> Jawahar circle, Jaipur (Rajasthan)<br>
-                                        coach.drushagupta@gmail.com<br>
-                                         +91 9166519631
+                                        coach.drushagupta@gmail.com
                                     </p>
                                     <p>&nbsp;</p>
                                 </div>
@@ -588,7 +587,7 @@
 
     <!-- End Meta Pixel Event Code -->
    
-   
+<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
     <script id='astra-theme-js-js-extra'>
         var astra = {
             "break_point": "921",
@@ -842,6 +841,25 @@
                     + '&body=' + encodeURIComponent(emailBody);
 
                 window.location.href = mailtoLink;
+                // const formData = new FormData(this);
+
+                // Send email using EmailJS
+                // emailjs.init("kv0Z7HGAAIIn42ZKz");
+                //  var data = {
+                //     message: emailBody
+                // };
+                // var ser = "service_bndh6mo";
+                // var temp = "template_qzdwcnn";
+                // emailjs.sendForm(`${ser}`, `${temp}`, data)
+                //     .then(function (response) {
+                //         // Show success message
+                //         console.log("Ok Monu ", response);
+                //         document.getElementById("response").innerHTML = "Email sent successfully!";
+                //     }, function (error) {
+                //         // Show error 
+                //         console.log("No Monu ", response);
+                //         document.getElementById("response").innerHTML = "Failed to send email. Please try again later.";
+                //     });
             });
         });
 

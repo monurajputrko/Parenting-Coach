@@ -1955,7 +1955,14 @@ a:where(:not(.wp-element-button)) {
         }
     }
 
+    #joinm{
+        display: none;
+    }
+
     @media (max-width:767px) {
+        #joinm {
+                display: block;
+            }
         #elementor-device-mode:after {
             content: "mobile";
         }
